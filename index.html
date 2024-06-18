@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Recipe Generator</title>
+    <link rel="stylesheet" type="text/css" href="src/styles.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="main-container">
+      <h1>AI Recipe Generator</h1>
+      <p>Generate a recipe with your leftover ingredients</p>
+      <div class="emojis">🥑 🍉 🥦 🌶️</div>
+
+      <form id="recipe-form">
+        <input
+          id="input"
+          autofocus
+          class="text-input"
+          type="text"
+          placeholder="Try: cheese, bread, pasta or eggs"
+        />
+        <button id="submit" class="submit" type="submit">Submit</button>
+      </form>
+
+      <div id="recipe" class="recipe"><div class="chef">👩🏻‍🍳</div></div>
+    </div>
+    <footer>
+      This AI project was coded by
+      <a href="https://github.com/maribelferreira" target="_blank">Maribel Ferreira</a> and is
+      open sourced on
+      <a href="https://github.com/maribelferreira/AI-Recipe-Generator" target="_blank"
+        >GitHub</a
+      >
+      and hosted on
+      <a href="https://maribel-ai-recipe-generator.netlify.app/" target="_blank"
+        >Netlify</a
+      >
+    </footer>
+
+    <script src="src/script.js"></script>
+  </body>
+</html>

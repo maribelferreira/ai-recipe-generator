@@ -1,0 +1,93 @@
+body {
+  background-color: rgb(238, 216, 236);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 10px;
+}
+p {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  font-size: 15px;
+}
+
+.main-container {
+  background-color: rgb(229, 245, 223);
+  max-width: 600px;
+  border-radius: 6px;
+  display: block;
+  margin: 70px auto 40px;
+  padding: 40px;
+}
+.emojis {
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.text-input {
+  width: 70%;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+}
+.submit {
+  border-radius: 10px;
+  border: none;
+  padding: 15px;
+  margin-left: 10px;
+  background-color: rgb(223, 170, 223);
+  width: 22%;
+  font-size: 15px;
+}
+.submit:hover {
+  background-color: rgb(219, 154, 219);
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+}
+.example {
+  color: rgb(88, 86, 86);
+  padding-top: 20px;
+  text-align: center;
+}
+.recipe {
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  padding: 40px;
+  margin-top: 40px;
+}
+.chef {
+  font-size: 120px;
+}
+@media (max-width: 670px) {
+  h1 {
+    font-size: 38px;
+  }
+  .text-input {
+    max-width: 65%;
+  }
+  .submit {
+    max-width: 40%;
+  }
+}
+@media (max-width: 450px) {
+  .text-input {
+    display: block;
+    min-width: 90%;
+    margin-bottom: 15px;
+  }
+  .submit {
+    display: block;
+    min-width: 100%;
+    margin-left: 0;
+  }
+}
