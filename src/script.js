@@ -2,11 +2,15 @@ function recipeFunction(response) {
   let recipeBox = document.querySelector("#recipe");
 
   new Typewriter("#recipe", {
-    strings: response.data.answer,
+    strings: cleanMarkdown(response.data.answer),
     autoStart: true,
     delay: 20,
     cursor: "",
   });
+}
+
+function cleanMarkdown(text) {
+  return text.replace(/[`''']{3}html\n|[`''']{3}/g, '');
 }
 
 function handleSubmit(event) {

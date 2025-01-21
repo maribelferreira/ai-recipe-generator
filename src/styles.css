@@ -1,24 +1,42 @@
 body {
-  background-color: rgb(238, 216, 236);
+  background-color: rgb(25, 25, 25);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1 {
   text-align: center;
-  font-size: 50px;
-  margin-top: 10px;
+  font-size: 40px;
+  padding-bottom: 10px;
+  color: rgb(255, 255, 255);
 }
+
+h2 {
+  font-size: 18px;
+}
+
 p {
   text-align: center;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
 }
 
 footer {
   text-align: center;
   font-size: 15px;
+  color: white;
+}
+
+footer a {
+  color: #5effcc;
+  transition: color 200ms ease-in-out;
+}
+
+footer a:hover {
+  color: #a6ffe0; /* Lighter shade of gold */
 }
 
 .main-container {
-  background-color: rgb(229, 245, 223);
+  background-color: rgb(52, 52, 52);
   max-width: 600px;
   border-radius: 6px;
   display: block;
@@ -38,36 +56,47 @@ footer {
   border: none;
   border-radius: 10px;
   font-size: 16px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(71, 71, 71);
 }
+
+.text-input::placeholder {
+  color: rgb(176, 176, 176);
+}
+
 .submit {
   border-radius: 10px;
   border: none;
   padding: 15px;
   margin-left: 10px;
-  background-color: rgb(223, 170, 223);
+  background-color: rgb(61, 255, 206);
   width: 22%;
   font-size: 15px;
 }
 .submit:hover {
-  background-color: rgb(219, 154, 219);
+  background-color: rgb(157, 255, 232);
   transition: all 200ms ease-in-out;
   cursor: pointer;
 }
 .example {
   color: rgb(88, 86, 86);
   padding-top: 20px;
-  text-align: center;
+  text-align: left;
 }
 .recipe {
-  background-color: white;
+  background-color: rgb(71, 71, 71);
   border-radius: 10px;
   text-align: center;
   padding: 40px;
   margin-top: 40px;
+  color: rgb(255, 255, 255);
+  text-align: left;
 }
 .chef {
-  font-size: 120px;
+  font-size: 130px;
+  text-align: center;
 }
+
 @media (max-width: 670px) {
   h1 {
     font-size: 38px;
