@@ -92,9 +92,19 @@ footer a:hover {
   color: rgb(255, 255, 255);
   text-align: left;
 }
+
+.recipe li {
+  margin-bottom: 12px;
+}
+
 .chef {
   font-size: 130px;
   text-align: center;
+}
+
+.recipe h2 {
+  margin-top: 30px;
+  margin-bottom: 15px;
 }
 
 @media (max-width: 670px) {
