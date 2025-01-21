@@ -5,7 +5,7 @@ body {
 
 h1 {
   text-align: center;
-  font-size: 40px;
+  font-size: 35px;
   padding-bottom: 10px;
   color: rgb(255, 255, 255);
 }
@@ -24,6 +24,7 @@ footer {
   text-align: center;
   font-size: 15px;
   color: white;
+  margin-bottom: 40px;
 }
 
 footer a {
