@@ -1,2 +1,4 @@
 # AI recipe generator
-Integrating AI in a page which generates various food recipes for the user.
+Webapp that generates recipes based on ingredients and cooking time. 
+
+Technologies used: OpenAI API, Next.js, and Tailwind CSS.
