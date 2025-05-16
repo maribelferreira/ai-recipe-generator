@@ -1,4 +1,4 @@
 # AI recipe generator
-Webapp that generates recipes based on ingredients and cooking time. 
+Webapp that generates recipes based on leftover ingredients. 
 
-Technologies used: OpenAI API, Next.js, and Tailwind CSS.
+Technologies used: OpenAI API, Next.js, HTML and Tailwind CSS.
